@@ -1,0 +1,7 @@
+from django.http import HttpResponse
+2
+ 
+3
+def hello(request):
+4
+    return HttpResponse("Hello world")
